@@ -37,7 +37,7 @@ function findAppJson(filepath){
 }
 
 program
-  .version('1.0.0', '-v, --version')
+  .version('1.0.1', '-v, --version')
 
 
 program
