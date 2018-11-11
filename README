@@ -6,7 +6,7 @@
 示例： 
 
 ```
-switch-app-index ./
+switch-app-index switch ./
 ```
 
 参数: app.json 文件所在目录
