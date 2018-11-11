@@ -2,11 +2,16 @@
 
 解决日常开发构成中经常需要修改默认首页，进行快速测试的需求
 
+安装:
+
+```
+sudo npm -g i switch-app-index
+```
 
 示例： 
 
 ```
-switch-app-index switch ./
+switchindex switch ./
 ```
 
-参数: app.json 文件所在目录
+参数: app.json 文件所在目录, 会递归找父级目录

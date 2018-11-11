@@ -1,6 +1,6 @@
 {
   "name": "switch-app-index",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "switch minapp index ,modify app.json",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,9 @@
     "inquirer": "^6.2.0",
     "jsonfile": "^5.0.0"
   },
-  "bin": "index.js",
+  "bin": {
+    "switchindex" : "index.js"
+  },
   "files":[
     "index.js"
   ]
