@@ -36,10 +36,12 @@ function findAppJson(filepath){
   return null
 }
 
+program
+  .version('1.0.0', '-v, --version')
 
 
 program
-.command('switch <dir>')
+.command('<dir>')
 .action(function (dir, cmd) {
   let _path = Path.join(process.cwd(), dir);
   let app = findAppJson(_path);
