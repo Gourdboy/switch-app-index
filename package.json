@@ -1,7 +1,7 @@
 {
   "name": "switch-app-index",
   "version": "1.0.0",
-  "description": "switch minapp app.json",
+  "description": "switch minapp index ,modify app.json",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,9 @@
     "fs-extra": "^7.0.1",
     "inquirer": "^6.2.0",
     "jsonfile": "^5.0.0"
-  }
+  },
+  "bin": "index.js",
+  "files":[
+    "index.js"
+  ]
 }
