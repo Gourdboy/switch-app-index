@@ -1,0 +1,17 @@
+{
+  "name": "switch-app-index",
+  "version": "1.0.0",
+  "description": "switch minapp app.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gourdboy",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.0",
+    "jsonfile": "^5.0.0"
+  }
+}
